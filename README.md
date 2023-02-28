@@ -12,7 +12,8 @@
 * Customizable templates for easy customization and branding
 * Easy-to-use admin interface for managing blog posts, users, and site settings
 * Responsive design for optimal viewing on all devices
-#### Installation: To install and run the project, clone the repository to your local machine, create a virtual environment, install the dependencies from the requirements.txt file, run the migrations, and start the development server.
+#### Installation
+To install and run the project, clone the repository to your local machine, create a virtual environment, install the dependencies from the requirements.txt file, run the migrations, and start the development server.
 
 #### Contributing
 
