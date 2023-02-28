@@ -12,10 +12,15 @@
 * Customizable templates for easy customization and branding
 * Easy-to-use admin interface for managing blog posts, users, and site settings
 * Responsive design for optimal viewing on all devices
-#### Installation: To install and run the project, clone the repository to your local machine, create a virtual environment, install the dependencies from the requirements.txt file, run the migrations, and start the development server.
+#### Installation
+To install and run the project, clone the repository to your local machine, create a virtual environment, install the dependencies from the requirements.txt file, run the migrations, and start the development server.
 
-#### Contributing: Contributions are welcome and appreciated! Please read the CONTRIBUTING.md file for guidelines on how to contribute to the project.
+#### Contributing
 
-#### License: This project is licensed under the MIT License. See the LICENSE.md file for details.
+Contributions are welcome and appreciated! Please read the CONTRIBUTING.md file for guidelines on how to contribute to the project.
 
-#### Enjoy using this Django blogging platform for your personal or professional blogging needs!
+#### License
+
+This project is licensed under the MIT License. See the LICENSE.md file for details.
+
+###### Enjoy using this Django blogging platform for your personal or professional blogging needs!
