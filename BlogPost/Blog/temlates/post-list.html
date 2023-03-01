@@ -1,59 +1,67 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="UTF-8">
-    <title>Mindful Matters</title>
-    <style type="text/css">
-      body {
-        background-color: #262626;
-        font-family: Arial, sans-serif;
-        color: #bfbfbf;
-        margin: 0;
-        padding: 0;
-      }
-      .post {
-        border: 1px solid #333333;
-        border-radius: 5px;
-        margin-bottom: 20px;
-        padding: 20px;
-      }
-      .post-title {
-        font-size: 24px;
-        font-weight: bold;
-        margin-bottom: 10px;
-      }
-      .post-date {
-        font-size: 14px;
-        margin-bottom: 10px;
-      }
-      .post-body {
-        font-size: 16px;
-        line-height: 1.5;
-      }
-      a {
-        color: #ffffff;
-        text-decoration: none;
-      }
-      a:hover {
-        text-decoration: underline;
-      }
-    </style>
-  </head>
-  <body>
-    <div class="post">
-      <h2 class="post-title"><a href="#">First Blog Post</a></h2>
-      <p class="post-date">March 1, 2023</p>
-      <p class="post-body">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vel ligula vel velit lobortis convallis nec in augue. Sed lobortis malesuada orci at pellentesque.</p>
-    </div>
-    <div class="post">
-      <h2 class="post-title"><a href="#">Second Blog Post</a></h2>
-      <p class="post-date">March 2, 2023</p>
-      <p class="post-body">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vel ligula vel velit lobortis convallis nec in augue. Sed lobortis malesuada orci at pellentesque.</p>
-    </div>
-    <div class="post">
-      <h2 class="post-title"><a href="#">Third Blog Post</a></h2>
-      <p class="post-date">March 3, 2023</p>
-      <p class="post-body">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vel ligula vel velit lobortis convallis nec in augue. Sed lobortis malesuada orci at pellentesque.</p>
-    </div>
-  </body>
+<head>
+	<title>Mindful Matters</title>
+	<style type="text/css">
+		body {
+			background-color: #00204a;
+			background-image: linear-gradient(to bottom right, #00204a, #2e86c1);
+			background-size: cover;
+			background-repeat: no-repeat;
+			font-family: 'Poppins', sans-serif;
+			color: #fff;
+		}
+		.container {
+			display: flex;
+			flex-wrap: wrap;
+			justify-content: space-around;
+			margin: 50px 0;
+		}
+		.card {
+			background-color: rgba(255,255,255,0.3);
+			border-radius: 20px;
+			padding: 20px;
+			margin: 20px;
+			width: 30%;
+			text-align: center;
+			box-shadow: 0 10px 20px rgba(0,0,0,0.3);
+			transition: all 0.3s ease;
+		}
+		.card:hover {
+			transform: translateY(-10px);
+			box-shadow: 0 20px 40px rgba(0,0,0,0.3);
+		}
+		.card h2 {
+			font-size: 24px;
+			margin-bottom: 10px;
+		}
+		.card p {
+			font-size: 16px;
+			line-height: 1.5;
+			margin-bottom: 20px;
+		}
+	</style>
+</head>
+<body>
+	<header>
+		<h1 style="font-family: 'Pacifico', cursive; font-size: 48px; text-align: center;">Mindful Matters</h1>
+	</header>
+	<div class="container">
+		<div class="card">
+			<h2>5 Mindfulness Tips for Reducing Stress</h2>
+			<p>Stress is a common problem for many people. Here are some tips for reducing stress through mindfulness practices.</p>
+			<a href="#">Read More</a>
+		</div>
+		<div class="card">
+			<h2>The Benefits of Meditation for Gen Z</h2>
+			<p>Meditation has numerous benefits for young people, including improved focus, reduced anxiety, and increased well-being.</p>
+			<a href="#">Read More</a>
+		</div>
+		<div class="card">
+			<h2>How to Stay Mindful in a Digital World</h2>
+			<p>With so many distractions online, it can be challenging to stay present and mindful. Here are some tips for staying mindful in the digital age.</p>
+			<a href="#">Read More</a>
+		</div>
+	</div>
+</body>
 </html>
