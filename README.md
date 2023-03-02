@@ -1,4 +1,4 @@
-# Django Blogging Platform
+# Mindful Matters
 
 ## Description
 
