@@ -5,4 +5,4 @@ from django.utils import timezone
 def homepage(request):
     posts = Post.objects.filter(published_date__lte=timezone.now()).order_by('published_date')
     context = {'posts': posts}
-    return render(request, 'homepage.html', )
+    return render(request, 'homepage.html', context)
