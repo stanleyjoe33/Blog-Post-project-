@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Mindful Matters</title>
+	<style>
+		body {
+			margin: 0;
+			padding: 0;
+			font-family: Arial, sans-serif;
+		}
+		header {
+			background-color: #00204a;
+			background-image: linear-gradient(to bottom right, #00204a, #2e86c1);
+			background-size: cover;
+			background-repeat: no-repeat;
+			font-family: 'Poppins', sans-serif;
+			color: hwb(0 100% 0%);
+            padding: 20px;
+            text-align: center;
+		}
+        .container {
+			display: flex;
+			flex-wrap: wrap;
+			justify-content: space-around;
+			margin: 50px 0;
+		}
+		.card {
+			background-color: rgba(255,255,255,0.3);
+			border-radius: 20px;
+			padding: 20px;
+			margin: 20px;
+			width: 30%;
+			text-align: center;
+			box-shadow: 0 10px 20px rgba(0,0,0,0.3);
+			transition: all 0.3s ease;
+		}
+		.card:hover {
+			transform: translateY(-10px);
+			box-shadow: 0 20px 40px rgba(0,0,0,0.3);
+		}
+		.card h2 {
+			font-size: 24px;
+			margin-bottom: 10px;
+		}
+		.card p {
+			font-size: 16px;
+			line-height: 1.5;
+			margin-bottom: 20px;
+		}
+		nav {
+			display: inline-block;
+			margin-top: 20px;
+		}
+		nav a {
+			color: #fff;
+			text-decoration: none;
+			padding: 10px;
+			font-size: 18px;
+			font-weight: bold;
+			font-family: cursive;
+			letter-spacing: 2px;
+			margin-right: 20px;
+			border-radius: 5px;
+			background-color: #e0d7d7;
+			color: #404662;
+			transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
+		}
+		nav a:hover {
+			background-color: #fff;
+			color: #0066cc;
+		}
+		footer {
+			padding: 20px;
+			bottom: 0;
+			left: 0;
+			width: 100%;
+			z-index: 1;
+
+            background-color: #00204a;
+			background-image: linear-gradient(to bottom right, #00204a, #2e86c1);
+			background-size: cover;
+			background-repeat: no-repeat;
+			font-family: 'Poppins', sans-serif;
+			color: #fff;
+            padding: 20px;
+            text-align: center;
+		}
+		.social-icons {
+			margin-top: 20px;
+		}
+		.social-icons a {
+			display: inline-block;
+			margin-right: 10px;
+			border-radius: 50%;
+			width: 40px;
+			height: 40px;
+			background-color: #fff;
+			color: #0066cc;
+			text-align: center;
+			line-height: 40px;
+			font-size: 20px;
+			text-decoration: none;
+			box-shadow: 0px 5px 10px rgba(0,0,0,0.3);
+			transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
+		}
+		.social-icons a:hover {
+			background-color: #fff;
+			color: #0066cc;
+		}
+	</style>
+</head>
+<body>
+	<header >
+		<h1 style="font-family: 'Pacifico', cursive; font-size: 48px; text-align: center;" > Mindful Matters</h1>
+		<nav>
+			<a href="#">Home</a>
+			<a href="#">About</a>
+			<a href="#">Contact</a>
+		</nav>
+	</header>
+	<main>
+		<div class="container">
+            {% block content %}
+            {% endblock %}
+        </div>
+	</main>
+	<footer>
+		<div class="social-icons">
+			<a href="#"><i class="fab fa-facebook-f"></i></a>
+			<a href="#"><i class="fab fa-twitter"></i></a>
+			<a href="#"><i class="fab fa-instagram"></i></a>
+			<a href="#"><i
