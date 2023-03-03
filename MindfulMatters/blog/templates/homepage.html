@@ -1,0 +1,44 @@
+{% extends 'base.html' %}
+	<style type="text/css">
+		 
+		 
+		.card {
+			background-color: rgba(255,255,255,0.3);
+			border-radius: 20px;
+			padding: 20px;
+			margin: 20px;
+			width: 30%;
+			text-align: center;
+			box-shadow: 0 10px 20px rgba(0,0,0,0.3);
+			transition: all 0.3s ease;
+		}
+		.card:hover {
+			transform: translateY(-10px);
+			box-shadow: 0 20px 40px rgba(0,0,0,0.3);
+		}
+		.card h2 {
+			font-size: 24px;
+			margin-bottom: 10px;
+		}
+		.card p {
+			font-size: 16px;
+			line-height: 1.5;
+			margin-bottom: 20px;
+		}
+	</style>
+</head>
+<body>
+	 {% block content %}
+	
+	<div class="container">
+		{%for i in posts%}
+		<div class="card">
+			<h2> {{ i.title}}</h2>
+            <time>published: 14.06.2014, 12:14</time>
+			<p> {{ i.text|linebreaksbr }}</p>
+			<a href="#">Read More</a>
+			
+		</div>
+		{% endfor %}
+	</div>
+	{% endblock %}
