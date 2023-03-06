@@ -8,3 +8,6 @@ def homepage(request):
     # a value to the key "posts" in context, so that they can be accessed in the view.
     context = {'posts': posts}
     return render(request, 'homepage.html', context)
+
+def FormView():
+    pass
