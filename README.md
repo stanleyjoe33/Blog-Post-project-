@@ -23,4 +23,4 @@ Contributions are welcome and appreciated! Please read the CONTRIBUTING.md file 
 
 This project is licensed under the MIT License. See the LICENSE.md file for details.
 
-###### Enjoy using this Django blogging platform for your personal or professional blogging needs!
+=====Enjoy using this Django blogging platform======
